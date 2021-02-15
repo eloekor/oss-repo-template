@@ -11,8 +11,8 @@
 
 ### Last Commit: Name: marinater, Date: October 31, 2020 , Message: “ Merge pull request #33 from marinater/features/amplify-samarth Added demo app and tested autolinking”  
 
-### ![gitstats](gitstats.png)  
+### ![gitstats](gitstats.jpg)  
 Upon comparing my findings to gitstat, everything was the same: with two contriutors, same lines of code, and correct dates for the first and last commit.
 
-### ![gource](gource.png)  
+### ![gource](gource.jpg)  
 

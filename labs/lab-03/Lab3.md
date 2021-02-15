@@ -35,11 +35,8 @@ Last Commit -
 - Name: TheStopsign  
 - Date: December 30, 2020  
 - Message: “redact numfor’s password”  
-
-![gitstats](gitstats.png)  
-The lines of code and the number of contributors are different. Gitstats states that there are 61159 lines while Github states that there are 562,692 lines. Gitstats also states that there are 25 contributors while Github states that there are 16 contributors.  
-
-![gource](gsource.png)  
+ 
+The lines of code and the number of contributors are different. Gitstats states that there are 61159 lines while Github states that there are 562,692 lines. Gitstats also states that there are 25 contributors while Github states that there are 16 contributors. 
 
 
 

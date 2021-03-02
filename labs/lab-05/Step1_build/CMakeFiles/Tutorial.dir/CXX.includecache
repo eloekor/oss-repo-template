@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/users/ekore/Desktop/OSS_2021/oss-repo-template/labs/lab-05/cmake/help/guide/tutorial/Step1/tutorial.cxx
+cmath
+-
+cstdlib
+-
+iostream
+-
+string
+-
+

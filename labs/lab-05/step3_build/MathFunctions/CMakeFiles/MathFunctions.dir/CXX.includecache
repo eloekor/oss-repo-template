@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/users/ekore/Desktop/OSS_2021/oss-repo-template/labs/lab-05/cmake/help/guide/tutorial/Step3/MathFunctions/MathFunctions.h
+
+/mnt/c/users/ekore/Desktop/OSS_2021/oss-repo-template/labs/lab-05/cmake/help/guide/tutorial/Step3/MathFunctions/mysqrt.cxx
+iostream
+-
+MathFunctions.h
+/mnt/c/users/ekore/Desktop/OSS_2021/oss-repo-template/labs/lab-05/cmake/help/guide/tutorial/Step3/MathFunctions/MathFunctions.h
+

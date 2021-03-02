@@ -1,0 +1,4 @@
+/home/ekore/installdir/bin/Tutorial
+/home/ekore/installdir/include/TutorialConfig.h
+/home/ekore/installdir/lib/libMathFunctions.a
+/home/ekore/installdir/include/MathFunctions.h

@@ -17,7 +17,7 @@
 
 # 4
 ### ![Step4Pic](Step4Pic.jpg) 
-### ![Step4TestPic](Step4TestPic.jpg) 
+### ![Step4TestPic](step4TestPic.jpg) 
 [Modified Math Function](Step4/MathFunctions/CMakeLists.txt)
 [CMakeLists.txt](Step4/CMakeLists.txt)
 

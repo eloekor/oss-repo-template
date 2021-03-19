@@ -30,6 +30,7 @@ import gzip
 from string import ascii_lowercase as lowercase
 
 import networkx as nx
+import itertools
 
 #-------------------------------------------------------------------
 #   The Words/Ladder graph of Section 1.1
@@ -45,7 +46,9 @@ def generate_graph(words):
             left, c, right = word[0:i], word[i], word[i + 1:]
             j = lookup[c]  # lowercase.index(c)
             for cc in lowercase[j + 1:]:
-                yield left + cc + right
+                comb = left+cc+right
+                for new_word in itertools.permutations(comb):
+                    yield ''.join(new_word)
     candgen = ((word, cand) for word in sorted(words)
                for cand in edit_distance_one(word) if cand in words)
     G.add_nodes_from(words)
@@ -62,7 +65,7 @@ def words_graph():
         line = line.decode()
         if line.startswith('*'):
             continue
-        w = str(line[0:4])
+        w = str(line[0:5])
         words.add(w)
     return generate_graph(words)
 
@@ -75,11 +78,12 @@ if __name__ == '__main__':
           % (nx.number_of_nodes(G), nx.number_of_edges(G)))
     print("%d connected components" % nx.number_connected_components(G))
 
-    for (source, target) in [('cold', 'warm'),
-                             ('love', 'hate'),
-                             ('good', 'evil'),
-                             ('pear', 'beef'),
-                             ('make', 'take')]:
+    for (source, target) in [('chaos', 'order'),
+                             ('nodes', 'graph'),
+                             ('moron', 'smart'),
+                             ('flies', 'swims'),
+                             ('mango', 'peach'),
+                             ('pound', 'marks')]:
         print("Shortest path between %s and %s is" % (source, target))
         try:
             sp = nx.shortest_path(G, source, target)

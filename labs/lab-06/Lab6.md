@@ -6,6 +6,7 @@
 
 ### Results
 
+```
 Loaded words_dat.txt containing 5757 five-letter English words.
 Two words are connected if they differ in one letter.
 Graph has 5757 nodes with 14135 edges
@@ -72,5 +73,12 @@ peace
 peach
 Shortest path between pound and marks is
 None
+```
 
+# 2
 
+### ![Change2 Code](images/Change2.jpg) 
+
+### Results
+
+### ![Change2 Code](images/ChangeResult.jpg) 

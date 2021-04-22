@@ -20,13 +20,13 @@
 ## Jeans
 ### ![Example3_1](images/Jeans.jfif) 
 
-## Sneakers
-### ![Example3_2](images/Jordans.jpg) 
-
 ## Sweatshirt
 ### ![Example3_3](images/Nike.jfif) 
 
-##Results
+## Sneakers
+### ![Example3_2](images/Jordans.jpg) 
+
+## Results
 2/3 results were correct, the only thing wrong was labeling the sneakers as a bag
 ### ![Example3_4](images/Check3.jpg)
 
